@@ -16,7 +16,7 @@
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-plugin-transition-link": "^1.18.0",
-    "gatsby-source-contentful": "^5.9.0",
+    "gatsby-source-contentful": "^4.6.3",
     "gatsby-source-filesystem": "^2.11.1",
     "gatsby-transformer-sharp": "^2.12.1",
     "prop-types": "^15.7.2",
