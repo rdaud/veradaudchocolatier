@@ -1,0 +1,54 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "contentful": "^8.4.2",
+    "formik": "^2.1.4",
+    "gatsby": "^2.32.13",
+    "gatsby-plugin-gatsby-cloud": "^1.0.2",
+    "gatsby-plugin-image": "^0.7.2",
+    "gatsby-plugin-manifest": "^2.12.1",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-scroll-reveal": "0.0.7",
+    "gatsby-plugin-sharp": "^2.14.4",
+    "gatsby-plugin-transition-link": "^1.18.0",
+    "gatsby-source-contentful": "^5.9.0",
+    "gatsby-source-filesystem": "^2.11.1",
+    "gatsby-transformer-sharp": "^2.12.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "devm": "gatsby develop -H 0.0.0.0 -p 8000",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-default.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-default#readme",
+  "main": "gatsby-browser.js"
+}

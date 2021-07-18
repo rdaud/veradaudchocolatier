@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MillerBanner';
+    font-style: normal;
+    font-weight: 400;
+    src: local('./fonts/MillerBanner-Roman.otf');
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600&display=swap');
